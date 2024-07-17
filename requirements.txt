@@ -1,0 +1,4 @@
+gspread
+selenium
+webdriver-manager
+python-dotenv
