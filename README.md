@@ -12,25 +12,24 @@ This project automates the connection with technical recruiters on LinkedIn usin
 
 ### 1. Create and activate a virtual environment (optional, but recommended)
 
-\`\`\`bash
+```
 python3 -m venv venv
 source venv/bin/activate
-\`\`\`
-
+```
 ### 2. Install the dependencies
 
-\`\`\`bash
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 3. Create a \`.env\` file
 
 Create a file named \`.env\` in the project's root directory and add your LinkedIn credentials:
 
-\`\`\`env
+```
 LINKEDIN_USERNAME=youremail
 LINKEDIN_PASSWORD=yourpassword
-\`\`\`
+```
 
 **Note:** Do not share this file or your credentials in a public repository.
 
@@ -38,10 +37,10 @@ LINKEDIN_PASSWORD=yourpassword
 
 Download and install Google Chrome:
 
-\`\`\`bash
+```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
-\`\`\`
+```
 
 The script will automatically install the required ChromeDriver.
 
@@ -49,9 +48,9 @@ The script will automatically install the required ChromeDriver.
 
 ### 1. Run the script
 
-\`\`\`bash
+```
 python scriptAddRecruiters.py
-\`\`\`
+```
 
 ### 2. Complete the two-step verification
 
@@ -63,17 +62,17 @@ After logging in, the script will pause for you to complete the two-step verific
 
 You can customize the search URL to look for different types of recruiters or adjust location filters.
 
-\`\`\`python
+```
 URL = "https://www.linkedin.com/search/results/people/?keywords=Tech%20Recruiter&origin=SWITCH_SEARCH_VERTICAL&sid=yN)"
-\`\`\`
+```
 
 ### Connection Limit
 
 You can adjust the connection limit by changing the \`max\` variable in the script.
 
-\`\`\`python
+```
 max = 60
-\`\`\`
+```
 
 ## Contribution
 
@@ -84,11 +83,7 @@ Contributions are welcome! Please open an issue or a pull request to discuss the
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
-
-```markdown
----
-```
-
+______________________________________________________________________
 
 # 🇧🇷 Gerador de Conexão no Linkedin Com Recrutadores
 
@@ -104,25 +99,25 @@ Este projeto automatiza a conexão com recrutadores técnicos no LinkedIn usando
 
 ### 1. Crie e ative um ambiente virtual (opcional, mas recomendado)
 
-\`\`\`bash
+```
 python3 -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 ### 2. Instale as dependências
 
-\`\`\`bash
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 3. Crie um arquivo \`.env\`
 
 Crie um arquivo chamado \`.env\` no diretório raiz do projeto e adicione suas credenciais do LinkedIn:
 
-\`\`\`env
+```
 LINKEDIN_USERNAME=seuemail
 LINKEDIN_PASSWORD=suasenha
-\`\`\`
+```
 
 **Nota:** Não compartilhe este arquivo ou suas credenciais em um repositório público.
 
@@ -130,10 +125,10 @@ LINKEDIN_PASSWORD=suasenha
 
 Baixe e instale o Google Chrome:
 
-\`\`\`bash
+```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
-\`\`\`
+```
 
 O script instalará automaticamente o ChromeDriver necessário.
 
@@ -141,9 +136,9 @@ O script instalará automaticamente o ChromeDriver necessário.
 
 ### 1. Execute o script
 
-\`\`\`bash
+```
 python scriptAddRecruiters.py
-\`\`\`
+```
 
 ### 2. Complete a verificação de duas etapas
 
@@ -155,17 +150,17 @@ Após o login, o script irá pausar para que você possa completar a verificaç�
 
 Você pode personalizar a URL de busca para procurar por diferentes tipos de recrutadores ou ajustar os filtros de localização.
 
-\`\`\`python
+```
 URL = "https://www.linkedin.com/search/results/people/?keywords=Tech%20Recruiter&origin=SWITCH_SEARCH_VERTICAL&sid=yN)"
-\`\`\`
+```
 
 ### Limite de Conexões
 
 Você pode ajustar o limite de conexões alterando a variável \`max\` no script.
 
-\`\`\`python
+```
 max = 60
-\`\`\`
+```
 
 ## Contribuição
 
